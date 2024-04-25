@@ -1,4 +1,4 @@
-#-- almacenar nombre e identificacion de personas con tablas
+#-- almacenar nombre e identificacion de personas con diccionarios
 dictionary = {}
 i=0
 while True:
