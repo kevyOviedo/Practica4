@@ -22,6 +22,11 @@ while True:
     except:
         # Si fruta no esta en diccionario, imprime y se va a la siguiente iteracion
         print('Fruta no existe...')
+        print(f'Frutas disponibles:')
+        i=1
+        for keys, value in dic_frutas.items():
+            print(f'{i}. {keys}')
+            i+=1
         input('Presiona cualquier tecla para continuar')
         continue
     
